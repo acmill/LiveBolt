@@ -9,7 +9,7 @@ This is the frontend application for the LiveBolt project. LiveBolt is a low cos
 You'll find a LiveBolt setup guide [here](https://www.hackster.io/carte391/how-to-create-a-smart-lock-with-a-ti-cc3200-launchxl-151fbd)
 
 ### Setting up the Expo client
-For the frontend application, we are using [Expo](https://docs.expo.io/versions/latest/) which is a set of tools and services built around [React Native](https://reactnative.dev/docs/getting-started), enabling for rapid development and testing.
+For the frontend application, we are using [Expo](https://docs.expo.io/versions/latest/), which is a framework of tools and services built around [React Native](https://reactnative.dev/docs/getting-started), enabling for rapid development and testing.
 ```bash
 npm install --global expo-cli
 
