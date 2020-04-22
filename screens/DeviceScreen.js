@@ -1,5 +1,5 @@
 //  Author: Tony Miller
-//  Homepage of the application,
+//  Device logs screen of the application.
 
 import * as WebBrowser from "expo-web-browser";
 import React, { Component, useEffect } from "react";

@@ -1,5 +1,5 @@
 //  Author: Tony Miller
-//  Homepage of the application,
+//  Homepage of the application, showing all devices on the server
 
 import * as WebBrowser from "expo-web-browser";
 import React, { Component, useState, useEffect } from "react";

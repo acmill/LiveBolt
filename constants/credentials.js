@@ -11,9 +11,10 @@ const firebaseConfig = {
     projectId: "livebolt-199cc",
   };
 
-//  notification API keys
+//  Notifications, analytics, other API keys here...
 
 
 
-//  Exports here
+//  Exports
 export default firebaseConfig;
+//  export any other keys used here...
