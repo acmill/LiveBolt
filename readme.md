@@ -7,7 +7,13 @@ This is the frontend application for the LiveBolt project.
 
 You'll find a setup guide [here](https://www.hackster.io/carte391/how-to-create-a-smart-lock-with-a-ti-cc3200-launchxl-151fbd)
 
-Use the package manager [npm](https://npmjs.com) to install all additional packages.
+For the frontend application, we are using [Expo](https://docs.expo.io/versions/latest/)
+```bash
+npm install --global expo-cli
+
+```
+
+Use the package manager [npm](https://npmjs.com) to install all additional packages in the root of the project after cloning.
 
 ```bash
 npm install
@@ -15,10 +21,16 @@ npm install
 
 ## Usage
 
+After getting the most recent packages, use one of the following commands in order to get expo started.
+
 ```bash
+npm start
 expo start
 expo start:web
 ```
+
+Once that has been done, you can use a simulator for iOS or Android, or scan the QR code that will appear after successful build and launch the app right on one of your devices.
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
