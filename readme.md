@@ -3,7 +3,7 @@
 
 This is the frontend application for the LiveBolt project. LiveBolt is a low cost, low maintenance, smart lock replacement that can also be built using your own microcontroller, sensors, and server.
 
-## Getting everything running
+## Getting everything set up
 
 You'll find a LiveBolt setup guide [here](https://www.hackster.io/carte391/how-to-create-a-smart-lock-with-a-ti-cc3200-launchxl-151fbd)
 
@@ -17,6 +17,29 @@ Use the package manager [npm](https://npmjs.com) to install all additional packa
 
 ```bash
 npm install
+```
+
+Lastly, create your credentials.js file in the /constants/ folder.
+
+``` /constants/fb_config.js``` Will be looking for it, otherwise you will not be able to access Firebase services.
+
+```javascript
+// Initialize Firebase
+const firebaseConfig = {
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    storageBucket: "",
+    projectId: "",
+  };
+
+//  Notifications, analytics, other API keys here...
+
+
+
+//  Exports
+export default firebaseConfig;
+//  export any other keys used here...
 ```
 
 ## Usage
