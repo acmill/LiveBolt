@@ -21,7 +21,7 @@ npm install
 
 Lastly, create your credentials.js file in the /constants/ folder.
 
-``` /constants/fb_config.js``` Will be looking for it, otherwise you will not be able to access Firebase services.
+``` /constants/fb_config.js``` will be looking for it, otherwise you will not be able to access Firebase services.
 
 ```javascript
 // Initialize Firebase
