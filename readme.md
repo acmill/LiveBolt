@@ -5,7 +5,7 @@ This is the frontend application for the LiveBolt project.
 
 ## Getting everything running
 
-You'll find a setup guide [here](https://www.hackster.io/carte391/how-to-create-a-smart-lock-with-a-ti-cc3200-launchxl-151fbd)
+You'll find a LiveBolt setup guide [here](https://www.hackster.io/carte391/how-to-create-a-smart-lock-with-a-ti-cc3200-launchxl-151fbd)
 
 For the frontend application, we are using [Expo](https://docs.expo.io/versions/latest/)
 ```bash
