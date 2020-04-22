@@ -5,20 +5,23 @@ This is the frontend application for the LiveBolt project. LiveBolt is a low cos
 
 ## Getting everything set up
 
+### Hardware guide
 You'll find a LiveBolt setup guide [here](https://www.hackster.io/carte391/how-to-create-a-smart-lock-with-a-ti-cc3200-launchxl-151fbd)
 
-For the frontend application, we are using [Expo](https://docs.expo.io/versions/latest/)
+### Setting up the Expo client
+For the frontend application, we are using [Expo](https://docs.expo.io/versions/latest/) which is a set of tools and services built around [React Native](https://reactnative.dev/docs/getting-started), enabling for rapid development and testing.
 ```bash
 npm install --global expo-cli
 
 ```
-
+### Dependencies
 Use the package manager [npm](https://npmjs.com) to install all additional packages in the root of the project after cloning.
 
 ```bash
 npm install
 ```
 
+### Adding your credentials
 Lastly, create your credentials.js file in the /constants/ folder.
 
 ``` /constants/fb_config.js``` will be looking for it, otherwise you will not be able to access Firebase services.
@@ -44,7 +47,7 @@ export default firebaseConfig;
 
 ## Usage
 
-After getting the most recent packages, use one of the following commands in order to get expo started.
+Use one of the following commands in order to build the development version of the application.
 
 ```bash
 npm start
