@@ -1,7 +1,7 @@
 
 # LiveBolt
 
-This is the frontend application for the LiveBolt project.
+This is the frontend application for the LiveBolt project. LiveBolt is a low cost, low maintenance, smart lock replacement that can also be built using your own microcontroller, sensors, and server.
 
 ## Getting everything running
 
