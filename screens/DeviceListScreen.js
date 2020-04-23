@@ -31,47 +31,47 @@ export default function DeviceListScreen({navigation}) {
   const [devices, setDevices] = useState([]);
   const [isLoading, setLoading] = useState([]);
   
-    // async function getDevices() {
-    //     const snapshot = await dbh.collection("Devices").onSnapshot( (collec) => {
-    //         return collec.docs
-    //     })
-    //     return snapshot
-    // };
+    async function getDevices() {
+        const snapshot = await dbh.collection("Devices").onSnapshot( (collec) => {
+            return collec.docs
+        })
+        return snapshot
+    };
 
 
 
   useEffect(() => {
 
-    setDevices( [
-        {
-            deviceID:"FRONT-DOOR-HOME",
-            deviceName:"Front Door - Home",
-            lastSeen:'8 days ago'
-        },
+//     setDevices( [
+//         {
+//             deviceID:"FRONT-DOOR-HOME",
+//             deviceName:"Front Door - Home",
+//             lastSeen:'8 days ago'
+//         },
 
-        {
-            deviceID:"Uq7l7erCCK7l73By",
-            deviceName:"Apartment Door",
-            lastSeen:'two weeks ago'
+//         {
+//             deviceID:"Uq7l7erCCK7l73By",
+//             deviceName:"Apartment Door",
+//             lastSeen:'two weeks ago'
 
-        },
+//         },
 
-        {
-            deviceID:"niWe4GtaV0N5xxhX",
-            deviceName:"Back Door - Home",
-            lastSeen: "two weeks ago"
+//         {
+//             deviceID:"niWe4GtaV0N5xxhX",
+//             deviceName:"Back Door - Home",
+//             lastSeen: "two weeks ago"
 
-        },
+//         },
 
-        {
-            deviceID:"rDhzW3pXq4yUbIZL",
-            deviceName:"Office Door",
-            lastSeen:'12 Days ago'
+//         {
+//             deviceID:"rDhzW3pXq4yUbIZL",
+//             deviceName:"Office Door",
+//             lastSeen:'12 Days ago'
 
-        },
+//         },
 
 
-    ] );
+//     ] );
     setLoading(false);
 
   }, []);
